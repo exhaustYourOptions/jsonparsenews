@@ -35,6 +35,7 @@ const IndexPage = () => {
             console.error(error)
         }
     }
+    
     useEffect(() => {
         try {
             setCalendarData(JSON.parse(calendarDataString))
